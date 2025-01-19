@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VueJS Basic</title>
+    <style>
+        ul { padding: 0; list-style-type: none; }
+        ul li { display: flex; align-items: center; gap: 20px; cursor: pointer; padding: 20px; }
+        img { vertical-align: bottom; }
+        .favourite { background-color: gainsboro; }
+    </style>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+
+    <div id="app">
+        <div v-if="showBook">
+            <!-- <ul v-for="book in books"> -->
+            <ul v-for="book in filteredBooks">
+                <li :class="{favourite:book.isFav}" @click="book.isFav = !book.isFav">
+                    <div>
+                        <img :src="book.img" width="90" height="120">
+                    </div>
+
+                    <div>
+                        <h3>{{book.title}}</h3>
+                        <p>Author: {{book.author}}</p>
+                        <p>Publisher: {{book.publisher}}</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- <button v-on:click="IncreaseCount">Increase Count</button> -->
+        <!-- <button v-on:click="count++">Increase Count</button> -->
+
+        <!--
+        <button @click="showBook = !showBook">
+            <span v-if="showBook">Hide Book</span>
+            <span v-if="!showBook">Show Book</span>
+        </button>
+        -->
+    </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>

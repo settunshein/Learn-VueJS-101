@@ -1,0 +1,12 @@
+{
+    "jobs": [
+        { "id": 1, "title": "Goal Keeper", "details": "Keeper Sweeper" },
+        { "id": 2, "title": "Defender",    "details": "Left Winger" },
+        { "id": 3, "title": "Midfielder",  "details": "Box to Box" }
+    ],
+    "blogs": [
+        { "id": 1, "title": "Post 1", "Author": "John Doe" },
+        { "id": 2, "title": "Post 2", "Author": "Jane Doe" },
+        { "id": 3, "title": "Post 3", "Author": "John Smith" }
+    ]
+}

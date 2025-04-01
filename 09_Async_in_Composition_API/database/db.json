@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Post Title 1",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "2",
+      "title": "Post Title 2",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "3",
+      "title": "Post Title 3",
+      "body": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+      "id": "b297",
+      "title": "New Post 1",
+      "body": "New Post Body 1",
+      "tags": [
+        "HTML",
+        "CSS",
+        "JS"
+      ]
+    }
+  ]
+}
